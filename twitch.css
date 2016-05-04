@@ -1,0 +1,70 @@
+/* twitch primary color is #6441A5 */
+
+* {
+	font-family: Helvetica;
+}
+
+html body {
+	background-color: #6441A5;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+	width: 80%;
+	margin: 10% auto 0 auto;
+}
+
+#title {
+	margin: auto;
+	color: #6441A5;
+	font-size: .9em;
+}
+
+#title img {
+	margin-right: 5px;
+}
+
+.streamers {
+	margin: auto;
+	text-align: center;
+}
+
+#online-streamers {
+	margin: auto;
+}
+#online-streamers li img {
+	width: 70px;
+	float: left;
+	margin-right: 20px;
+}
+#oneline-streamers li p {
+	font-size: .8em;
+}
+
+#offline-streamers li {
+	margin-top: 10px;
+}
+#offline-streamers li a {
+	text-decoration: none;
+	color: #6441A5;
+	font-weight: bold;
+}
+
+.footer {
+	color: white;
+	text-align: center;
+	font-size: .8em;
+	margin-top: 10px;
+}
+.footer a {
+	color: white;
+	text-decoration: none;
+}
